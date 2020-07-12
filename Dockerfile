@@ -1,4 +1,4 @@
-FROM python:3.8 as builder
+FROM python:3.8-slim-buster as builder
 RUN pip install aws-sam-cli
 
 FROM python:3.8-alpine
